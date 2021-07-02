@@ -78,4 +78,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Mustafa Kadan - [@mtevfik41](https://twitter.com/mtevfik41) - mtevfik41@gmail.com
 
-Project Link: [https://github.com/mtevfik41/PracticeBox](https://github.com/mtevfik41/PracticeBox)
+Project Link: [https://github.com/mtevfik41/FCC-ResponsiveDesignProjects](https://github.com/mtevfik41/FCC-ResponsiveDesignProjects)
