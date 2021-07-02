@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Please fill out the form below</p>
+      </div>
+      <form action="" id="survey-form">
+        <div class="util">
+          <label for="name" id="name-label"><p>Name</p></label>
+          <input
+            class="input"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+            required
+          />
+          <br />
+          <label for="email" id="email-label"><p>Email</p></label>
+          <input
+            class="input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your mail"
+            required
+          />
+          <br />
+          <label for="number" id="number-label"><p>Number</p></label>
+          <input
+            class="input"
+            type="number"
+            name="number"
+            id="number"
+            min="0"
+            max="100"
+            placeholder="Enter a number between 0 and 100"
+            required
+          />
+        </div>
+        <div class="boxes">
+          <div class="dropdown">
+            <p>Most often I track activities by:</p>
+            <select id="dropdown" class="select">
+              <option>Time spent</option>
+              <option>Number of times completed</option>
+              <option>Location</option>
+              <option>Time of day</option>
+              <option>Theme</option>
+              <option>Project</option>
+            </select>
+          </div>
+          <div class="radio-text">
+            <p>I would prefer to receive notifications via:</p>
+          </div>
+          <div class="radio-type">
+            <div class="item-1">
+              <input
+                type="radio"
+                id="app-notification"
+                name="notification"
+                value="app"
+                checked
+              />
+              <p><label for="app-notification">App</label></p>
+            </div>
+            <div class="item-1">
+              <input
+                type="radio"
+                id="email-notification"
+                name="notification"
+                value="email"
+              />
+              <p><label for="email-notification">Email</label></p>
+            </div>
+          </div>
+          <div class="checkbox-text">
+            <p>I am interested in tracking:</p>
+          </div>
+          <div class="checkbox-type">
+            <div class="item">
+              <input type="checkbox" id="projects" value="projects" />
+              <label for="projects">Projects</label>
+            </div>
+            <div class="item">
+              <input type="checkbox" id="study" value="study" />
+              <label for="study">Study</label>
+            </div>
+            <div class="item">
+              <input
+                type="checkbox"
+                id="physical-fitness"
+                value="physical-fitness"
+              />
+              <label for="physical-fitness">Physical fitness</label>
+            </div>
+            <div class="item">
+              <input
+                type="checkbox"
+                id="customer-contact"
+                value="customer-contact"
+              />
+
+              <label for="customer-contact">Customer contact</label>
+            </div>
+            <div class="item">
+              <input type="checkbox" id="hobbies" value="hobbies" />
+              <label for="hobbies">Hobbies</label>
+            </div>
+            <div class="item">
+              <input type="checkbox" id="other" value="other" />
+              <label for="other">Other</label>
+            </div>
+          </div>
+          <div class="text-area">
+            <p>Your suggestions and comments are welcome:</p>
+            <textarea class="text-area-big"></textarea>
+          </div>
+          <div class="btn">
+            <button class="button" id="submit" type="submit">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
