@@ -24,10 +24,6 @@
 
 - [Codepen](https://codepen.io/mtevfik41/pen/QWvjwJe)
 
-User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
-
-User Story #9: The img element should be centered within its parent element.
-
 User Story #1: I can see a title with id="title" in H1 sized text.
 
 User Story #2: I can see a short explanation with id="description" in P sized text.
