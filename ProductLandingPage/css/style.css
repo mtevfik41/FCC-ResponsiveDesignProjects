@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.6;
+  background: #c2b8a3;
+}
+
+.container {
+  max-width: 1100px;
+  overflow: hidden;
+  margin: auto;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  top: 0px;
+  margin: auto;
+  transition: 0.5s;
+}
+
+img {
+  margin-left: 2rem;
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+#header ul li a {
+  padding: 0 3rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+#brand {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#brand h1 {
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+
+#brand p {
+  width: 500px;
+  font-size: 1.1rem;
+}
+
+#about h1 {
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+
+#about p {
+  font-size: 1.05rem;
+}
+
+#video {
+  display: flex;
+  height: 450px;
+  margin: 3rem auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#pricing {
+  display: flex;
+  flex: row;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  margin: 2rem 2rem;
+  text-align: center;
+  border: 1px solid #333;
+}
+
+.card h1 {
+  margin-top: 0.5rem;
+}
+
+.card p {
+  padding: 1rem 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#contact {
+  display: flex;
+  flex: row;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto 3rem auto;
+}
+
+#email {
+  width: 250px;
+
+  height: 30px;
+
+  background: #e6ddc6;
+  color: #a19882;
+  font-family: 'Courier New', Courier, monospace;
+  border: none;
+}
+#email:hover {
+  border: 1px solid #333;
+}
+#message {
+  margin: 1rem 0 0 0;
+  width: 250px;
+  height: 50px;
+  background: #e6ddc6;
+  color: #a19882;
+  font-family: 'Courier New', Courier, monospace;
+  border: none;
+}
+#message:hover {
+  border: 1px solid #333;
+}
+#submit {
+  margin: 2rem 0 0 0;
+  background-color: #a19882;
+  border: none;
+
+  color: #333;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#submit:hover {
+  border: 1px solid #333;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+#footer {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  #header {
+    display: block;
+    height: 250px;
+    align-items: center;
+  }
+  #nav-bar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  #brand {
+    margin-top: 2rem;
+  }
+  img {
+    display: flex;
+    width: 320px;
+    height: 200px;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    justify-content: center;
+  }
+  #nav-bar ul li a {
+    margin: 0;
+    padding: 0 5px;
+  }
+  #pricing {
+    display: flex;
+    flex-direction: column;
+  }
+  #video {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 768px) {
+  #nav-bar ul li a {
+    margin: 0;
+    padding: 0 5px;
+  }
+  #pricing {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 321px) {
+  img {
+    display: none;
+  }
+
+  #header {
+    margin: 0;
+    display: block;
+    height: 160px;
+  }
+  #header ul {
+    margin-top: 1rem;
+    display: block;
+  }
+}
+
+@media (max-width: 1050px) {
+  #pricing {
+    display: flex;
+    flex-direction: column;
+  }
+}
